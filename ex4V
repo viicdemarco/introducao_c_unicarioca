@@ -1,0 +1,22 @@
+/*Verificar se um caractere digitado é uma vogal ou uma consoante */
+#include <stdio.h>
+
+int main() {
+    char caractere;
+
+    printf("Digite um caractere: ");
+    scanf(" %c", &caractere);
+    int ehVogalMinuscula = caractere == 'a' || caractere == 'e' || caractere == 'i' || caractere == 'o' || caractere == 'u' ||
+    int ehVogalMaiuscula = caractere == 'A' || caractere == 'E' || caractere == 'I' || caractere == 'O' || caractere == 'U'); {
+    if (ehVogalMinuscula) ehVogalMaiuscula)   {
+        printf("O caractere eh uma vogal minuscula.\n"); 
+        } else  if (euVolgalMinuscula) {
+        printf("O caractere eh uma vogal maiuscula.\n"); 
+        }
+        
+        {
+        printf("O caractere eh uma consoante.\n");
+    }
+
+    return 0;
+}
